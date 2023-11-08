@@ -18,7 +18,7 @@ export default function Navbar() {
         fetch("https://ctssso.onrender.com/home")
         .then((data) => {
             try {
-                console.log(data)
+                data.json().then((msg) => console.log(msg))
                 setGet('getting')
             }
             catch {
