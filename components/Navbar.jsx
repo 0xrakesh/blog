@@ -112,7 +112,7 @@ export default function Navbar() {
                                 <button className={'pr-4 pl-3 font-montserrat font-semibold px-3 mx-3 rounded-full text-white bg-violet-600 max-[640px]:w-fit'}><a href="https://ctssso.onrender.com/logout">Logout</a></button>  
                            </>
                         : 
-                            <button onClick={() => setClick(true)} className={'pr-4 pl-3 font-montserrat font-semibold px-3 rounded-full text-white bg-violet-600 max-[640px]:w-fit'}><a href="https://ctssso.onrender.com/login?target=blog-sigma-kohl.vercel.app">Login</a></button>
+                            <button onClick={() => setClick(true)} className={'pr-4 pl-3 font-montserrat font-semibold px-3 rounded-full text-white bg-violet-600 max-[640px]:w-fit'}><a href="https://ctssso.onrender.com/login?target=https://blog-sigma-kohl.vercel.app">Login</a></button>
                             
                         } 
                         
